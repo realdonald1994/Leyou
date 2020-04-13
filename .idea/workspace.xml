@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6de4006a-c695-4f2f-98c3-ebe9d010860b" name="Default Changelist" comment="" />
+    <list default="true" id="6de4006a-c695-4f2f-98c3-ebe9d010860b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/leyou-common/src/main/java/com/leyou/common/pojo/PageResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-gateway/src/main/java/com/leyou/gateway/config/LeyouCorsConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-item/leyou-item-interface/src/main/java/com/leyou/item/pojo/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-item/leyou-item-service/src/main/java/com/leyou/item/controller/CategoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-item/leyou-item-service/src/main/java/com/leyou/item/mapper/CategoryMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-item/leyou-item-service/src/main/java/com/leyou/item/service/CategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-item/leyou-item-service/src/main/java/com/leyou/item/service/impl/CategoryServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-item/leyou-item-interface/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-item/leyou-item-interface/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-item/leyou-item-service/src/main/java/com/leyou/LeyouItemApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-item/leyou-item-service/src/main/java/com/leyou/LeyouItemApplication.java" afterDir="false" />
+    </list>
+    <list id="298ba457-b1cf-44e1-9e18-d61da4a448ed" name="ignore_idea" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <list id="84379c5f-520c-43a0-8a79-e168cce80f35" name="target" comment="">
+      <change beforePath="$PROJECT_DIR$/leyou-item/leyou-item-service/target/classes/com/leyou/LeyouItemApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-item/leyou-item-service/target/classes/com/leyou/LeyouItemApplication.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -116,11 +134,15 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="6de4006a-c695-4f2f-98c3-ebe9d010860b" name="Default Changelist" comment="" />
+      <changelist id="298ba457-b1cf-44e1-9e18-d61da4a448ed" name="ignore_idea" comment="" />
+      <changelist id="84379c5f-520c-43a0-8a79-e168cce80f35" name="target" comment="" />
       <created>1586550145579</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1586550145579</updated>
       <workItem from="1586550158188" duration="6960000" />
+      <workItem from="1586659543257" duration="1309000" />
+      <workItem from="1586719114906" duration="6930000" />
     </task>
     <servers />
   </component>
@@ -131,39 +153,59 @@
     <state x="742" y="283" key="FileChooserDialogImpl" timestamp="1586567230279">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="742" y="283" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1586567230279" />
-    <state width="1281" height="271" key="GridCell.Tab.0.bottom" timestamp="1586573729825">
+    <state x="742" y="283" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1586660290877" />
+    <state width="1281" height="271" key="GridCell.Tab.0.bottom" timestamp="1586743515761">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1281" height="271" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586573729825" />
-    <state width="1281" height="271" key="GridCell.Tab.0.center" timestamp="1586573729825">
+    <state width="1281" height="271" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586743515761" />
+    <state width="1281" height="271" key="GridCell.Tab.0.center" timestamp="1586743515761">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1281" height="271" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586573729825" />
-    <state width="1281" height="271" key="GridCell.Tab.0.left" timestamp="1586573729825">
+    <state width="1281" height="271" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586743515761" />
+    <state width="1281" height="271" key="GridCell.Tab.0.left" timestamp="1586743515761">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1281" height="271" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586573729825" />
-    <state width="1281" height="271" key="GridCell.Tab.0.right" timestamp="1586573729825">
+    <state width="1281" height="271" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586743515761" />
+    <state width="1281" height="271" key="GridCell.Tab.0.right" timestamp="1586743515761">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1281" height="271" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586573729825" />
-    <state width="1281" height="271" key="GridCell.Tab.1.bottom" timestamp="1586573729825">
+    <state width="1281" height="271" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586743515761" />
+    <state width="1281" height="271" key="GridCell.Tab.1.bottom" timestamp="1586743515761">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1281" height="271" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586573729825" />
-    <state width="1281" height="271" key="GridCell.Tab.1.center" timestamp="1586573729825">
+    <state width="1281" height="271" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586743515761" />
+    <state width="1281" height="271" key="GridCell.Tab.1.center" timestamp="1586743515761">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1281" height="271" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586573729825" />
-    <state width="1281" height="271" key="GridCell.Tab.1.left" timestamp="1586573729825">
+    <state width="1281" height="271" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586743515761" />
+    <state width="1281" height="271" key="GridCell.Tab.1.left" timestamp="1586743515761">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1281" height="271" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586573729825" />
-    <state width="1281" height="271" key="GridCell.Tab.1.right" timestamp="1586573729825">
+    <state width="1281" height="271" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586743515761" />
+    <state width="1281" height="271" key="GridCell.Tab.1.right" timestamp="1586743515761">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1281" height="271" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586573729825" />
+    <state width="1281" height="271" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586743515761" />
+    <state x="493" y="183" key="Maven.ArtifactSearchDialog" timestamp="1586736624581">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="493" y="183" key="Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586736624581" />
+    <state x="187" y="187" key="SettingsEditor" timestamp="1586736807095">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="187" y="187" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1586736807095" />
+    <state x="810" y="444" key="VCS.ChangelistChooser" timestamp="1586743597428">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="810" y="444" key="VCS.ChangelistChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1586743597428" />
+    <state x="667" y="421" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1586736806246">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="667" y="421" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1920.1040@0.0.1920.1040" timestamp="1586736806246" />
+    <state x="772" y="445" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1586743655914">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="772" y="445" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1586743655914" />
     <state x="345" y="223" key="new project wizard" timestamp="1586567240503">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
